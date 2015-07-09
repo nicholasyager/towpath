@@ -111,6 +111,9 @@ img.circle {
 
 /* Featurettes
 ------------------------- */
+.center-y {
+    vertical-align:middle;
+}
 
 .alignr  {
     text-align:right;
@@ -234,6 +237,7 @@ body {
     height:100%;
   margin-right: auto;
   margin-left: auto;
+  display:table;
 }
 
 /* Padding for spacing */
@@ -292,8 +296,16 @@ body {
  * Cover
  */
 
+.center {
+}
+
 .cover {
   padding: 0 20px;
+  height:100%;
+  display:table-cell;
+  vertical-align:middle;
+  float:none;
+
 }
 .cover .btn-lg {
   padding: 10px 20px;
